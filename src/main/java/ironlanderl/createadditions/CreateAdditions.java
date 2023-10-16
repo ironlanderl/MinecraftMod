@@ -25,5 +25,6 @@ public class CreateAdditions implements ModInitializer {
 
 		LOGGER.info("Hello Fabric world!");
 		Registry.register(Registry.ITEM, new Identifier("createadditions", "custom_item"), custom_item);
+		LOGGER.info("Items Registered!");
 	}
 }
